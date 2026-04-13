@@ -1,0 +1,41 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+*.iml
+
+# --- React web app (hackforge/) ---
+hackforge/node_modules/
+hackforge/build/
+hackforge/coverage/
+hackforge/.env*.local
+hackforge/npm-debug.log*
+hackforge/yarn-debug.log*
+hackforge/yarn-error.log*
+
+# --- Flutter app (app/hackforge/) ---
+app/hackforge/.dart_tool/
+app/hackforge/.flutter-plugins
+app/hackforge/.flutter-plugins-dependencies
+app/hackforge/build/
+app/hackforge/**/doc/api/
+app/hackforge/.pub-cache/
+app/hackforge/.pub/
+app/hackforge/android/.gradle/
+app/hackforge/android/app/debug/
+app/hackforge/android/app/profile/
+app/hackforge/android/app/release/
+app/hackforge/android/local.properties
+app/hackforge/ios/Pods/
+app/hackforge/ios/.symlinks/
+app/hackforge/ios/Flutter/Flutter.podspec
+app/hackforge/ios/Flutter/ephemeral/
+app/hackforge/macos/Flutter/ephemeral/
+app/hackforge/linux/flutter/ephemeral/
+app/hackforge/windows/flutter/ephemeral/
+app/hackforge/.claude/
+
+# Logs & local tooling
+*.log
+**/settings.local.json

@@ -5,15 +5,6 @@ Thumbs.db
 .idea/
 *.iml
 
-# --- React web app (hackforge/) ---
-hackforge/node_modules/
-hackforge/build/
-hackforge/coverage/
-hackforge/.env*.local
-hackforge/npm-debug.log*
-hackforge/yarn-debug.log*
-hackforge/yarn-error.log*
-
 # --- Flutter app (app/hackforge/) ---
 app/hackforge/.dart_tool/
 app/hackforge/.flutter-plugins
